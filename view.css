@@ -1,0 +1,42 @@
+
+#view{
+    background-color: #004080;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.gamename{
+    font-size: large;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#view:hover{
+    background-color: white;
+    color: #004080;
+    border: 1px solid #004080;
+}
+
+.gameimg{
+    border-radius: 150px;
+    border: 5px solid #004080;
+}
+.gameimg:hover{
+    border: 5px solid white;
+    width: 280px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    border: 5px solid #004080;
+}
+

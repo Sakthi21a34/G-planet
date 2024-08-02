@@ -52,6 +52,7 @@ header {
     margin: 1rem;
     flex: 1 0 30%;
     box-sizing: border-box;
+    border: 5px solid #004080;
 }
 .card h2 {
     font-size: 1.5rem;

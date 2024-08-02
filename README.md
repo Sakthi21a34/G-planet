@@ -1,1 +1,1 @@
-# G-planet
+# G-planet (🏁 Gaming Planet)

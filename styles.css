@@ -136,3 +136,36 @@ footer {
     padding: 0px;
     border-radius: 15px;
 }
+
+/* typing Effect */
+
+
+.typing-container {
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-text::before{
+    content: "G-Planet!";
+    display: inline-block;
+    animation: typing 5s steps(30, end), step-end infinite;
+}
+
+.typing-container:hover{
+    color: red;
+}
+
+@keyframes typing {
+    0% { content: "G-Planet!"; }
+    10% { content: "G-Planet!"; }
+    20% { content: "Ga-Planet!"; }
+    30% { content: "Gam-Planet!"; }
+    40% { content: "Gami-Planet!"; }
+    50% { content: "Gamin-Planet!"; }
+    60% { content: "Gaming-Planet!"; }
+    70% { content: "Gamin-Planet!"; }
+    80% { content: "Gami-Planet!"; }
+    90% { content: "Gam-Planet!"; }
+    100% { content: "Ga-Planet!"; }
+}
